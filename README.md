@@ -11,13 +11,13 @@ A Todo List application built with Vue 3, demonstrating core Vue features includ
 
 ## Prerequisites
 
-- Node.js 20+
+- Node.js ≥ 20.19 or ≥ 22.12
 - npm
 
 ## Getting Started
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/UOA-CS732-S1-2026/cs732-tech-tutorial-AndyHu-6688.git
 cd todo-app
 npm install
 npm run dev

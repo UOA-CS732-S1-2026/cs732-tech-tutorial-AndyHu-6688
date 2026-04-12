@@ -18,7 +18,7 @@ const store = useTodoStore()
       />
       <span class="todo-name" :class="{ completed: todo.completed }">{{ todo.text }}</span>
     </div>
-    <div class="del" @click="store.deleteTodo(todo.id)">del</div>
+    <button class="del" @click="store.deleteTodo(todo.id)">del</button>
   </div>
 </template>
 
@@ -53,6 +53,8 @@ const store = useTodoStore()
 
 .del {
   color: #ef4444;
+  background: none;
+  border: none;
   cursor: pointer;
   font-size: 0.85rem;
   font-weight: 500;

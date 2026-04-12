@@ -20,7 +20,7 @@ function handleAdd() {
       placeholder="Add a todo"
       @keyup.enter="handleAdd"
     />
-    <div class="todo-button" @click="handleAdd">Add Todo</div>
+    <button class="todo-button" @click="handleAdd">Add Todo</button>
   </div>
 </template>
 
@@ -53,6 +53,7 @@ function handleAdd() {
   padding: 10px 18px;
   background: #7c3aed;
   color: #ffffff;
+  border: none;
   border-radius: 8px;
   font-weight: 600;
   font-size: 0.95rem;
