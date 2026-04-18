@@ -17,7 +17,7 @@ A Todo List application built with Vue 3, demonstrating core Vue features includ
 ## Getting Started
 
 ```bash
-git clone https://github.com/UOA-CS732-S1-2026/cs732-tech-tutorial-AndyHu-6688.git
+git clone https://github.com/UOA-CS732-S1-2026/cs732-tech-tutorial-AndyHu-6688.git todo-app
 cd todo-app
 npm install
 npm run dev
